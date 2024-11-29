@@ -37,7 +37,7 @@ const Home = () => {
           </Link>
 
           <Link href="/chat">
-            <button className="px-8 py-3 text-xl font-semibold text-white border-2 border-white rounded-lg hover:scale-105 transition-transform flex items-center justify-center space-x-3 h-16">
+            <button className="px-8 py-2 text-xl font-semibold text-white border-2 border-white rounded-lg hover:scale-105 transition-transform flex items-center justify-center space-x-3 h-16">
               {/* Discord SVG icon */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
