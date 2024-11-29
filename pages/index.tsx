@@ -25,7 +25,7 @@ const Home = () => {
           </span>
         </h1>
         <p className="text-[#d0d8e1] font-medium text-3xl md:text-2xl lg:text-3xl mt-6">
-          An AI chatbot helping you to learn and prepare for school!
+          An optimized chatbot helping you to learn and prepare for school!
         </p>
 
         {/* Buttons */}
