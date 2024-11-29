@@ -17,7 +17,7 @@ const Chat = () => {
       {/* Main Content */}
       <Navbar />
 
-      <main className="relative text-center mt-24 p-5 w-full max-w-7xl">
+      <main className="relative text-center mt-24 p-4 w-full max-w-7xl">
         {/* Embed the chatbot iframe */}
         <iframe
           src="https://www.chatbase.co/chatbot-iframe/S9KobTL6Hufk0GFQiQzFr"
