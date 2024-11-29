@@ -31,7 +31,7 @@ const Home = () => {
         {/* Buttons */}
         <div className="mt-8 flex justify-center space-x-6">
           <Link href="/chat">
-            <button className="px-8 py-3 text-xl font-semibold text-white bg-gradient-to-r from-sky-400 to-pink-500 rounded-lg hover:scale-105 transition-transform h-16">
+            <button className="px-8 py-3 text-xl font-semibold text-white bg-gradient-to-tr from-sky-400 to-pink-500 rounded-lg hover:scale-105 transition-transform h-16">
               Get Started
             </button>
           </Link>
