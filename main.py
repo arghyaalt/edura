@@ -10,7 +10,7 @@ async def on_ready():
     await client.tree.sync()
     await client.change_presence(activity=discord.Game('/info'))
 
-@client.tree.command(description="Get help and information about CalcIB!")
+@client.tree.command(description="Get help and information about Edura!")
 async def info(interaction: discord.Interaction):
     await interaction.response.send_message(f"""
                    **Welcome to Edura**
@@ -20,4 +20,4 @@ async def info(interaction: discord.Interaction):
 -
 **Hope this helps!{interaction.user.mention}""")
 
-client.run('MTMxMjA4NDYyNTkwODA0MzgxNg.GMeS7K.8t5RF7SS1pheEPwY8FV4nEkjyqTBhosFcQLqVc')
+client.run('INSERT TOKEN')
