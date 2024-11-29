@@ -17,15 +17,16 @@ const Chat = () => {
       {/* Main Content */}
       <Navbar />
 
-      <main className="relative text-center mt-10 p-4 w-full max-w-4xl">
+      <main className="relative text-center mt-20 p-4 w-full max-w-7xl">
         {/* Embed the chatbot iframe */}
         <iframe
           src="https://www.chatbase.co/chatbot-iframe/S9KobTL6Hufk0GFQiQzFr"
           style={{
             width: "100%",
-            height: "500px",
+            height: "650px", // Desktop height
             borderRadius: "10px", // Adds rounded corners
           }}
+          className="sm:h-[500px] lg:h-[700px]"
           frameBorder="0"
         ></iframe>
 
