@@ -36,7 +36,7 @@ const Home = () => {
             </button>
           </Link>
 
-          <Link href="/chat">
+          <Link href="https://discord.com/oauth2/authorize?client_id=1312084625908043816&permissions=8&integration_type=0&scope=bot ">
             <button className="px-8 py-2 text-xl font-semibold text-white border-2 border-white rounded-lg hover:scale-105 transition-transform flex items-center justify-center space-x-3 h-16">
               {/* Discord SVG icon */}
               <svg
