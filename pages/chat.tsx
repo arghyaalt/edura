@@ -9,23 +9,22 @@ const poppins = Poppins({
 const Chat = () => {
   return (
     <div
-      className={`${poppins.className} relative min-h-screen flex items-center justify-center`}
+      className={`${poppins.className} relative min-h-screen flex flex-col items-center justify-center`}
     >
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-tr from-gray-900 to-indigo-900 z-0" />
 
       {/* Main Content */}
       <Navbar />
-      
-      <main className="relative text-center mt-36 p-2">
+
+      <main className="relative text-center mt-10 p-4 w-full max-w-4xl">
         {/* Embed the chatbot iframe */}
         <iframe
           src="https://www.chatbase.co/chatbot-iframe/S9KobTL6Hufk0GFQiQzFr"
-          width="1000px" // Adjust width here
-          height="700px" // Adjust height here
           style={{
-            maxWidth: "100%", // Ensures responsiveness
-            borderRadius: "10px", // Optional: Adds rounded corners
+            width: "100%",
+            height: "500px",
+            borderRadius: "10px", // Adds rounded corners
           }}
           frameBorder="0"
         ></iframe>
@@ -41,12 +40,9 @@ const Chat = () => {
             `,
           }}
         />
-        
+
         {/* Load external JS script */}
-        <script
-          src="https://www.chatbase.co/embed.min.js"
-          defer
-        />
+        <script src="https://www.chatbase.co/embed.min.js" defer />
       </main>
     </div>
   );
