@@ -20,7 +20,7 @@ const Chat = () => {
       <main className="relative text-center mt-24 p-4 w-full max-w-7xl">
         {/* Embed the chatbot iframe */}
         <iframe
-          src="https://www.chatbase.co/chatbot-iframe/S9KobTL6Hufk0GFQiQzFr"
+          src="https://www.chatbase.co/chatbot-iframe/hZyfbcGqj42J8zb5LBP4V"
           style={{
             width: "100%",
             height: "650px", // Desktop height
