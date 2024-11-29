@@ -54,6 +54,9 @@ const Home = () => {
             </button>
           </Link>
         </div>
+        <p className = "fixed bottom-0 left-0 w-full text-white text-center py-2 text-sm opacity-60">
+          Made with ❤️ by Arghya Vyas, Ali Salman, Kishan Suhirthan, David Santoso
+        </p>
       </main>
     </div>
   );
